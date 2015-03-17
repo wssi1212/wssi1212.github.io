@@ -4,6 +4,10 @@
 Notice how tags have an start: "<h1>" and an end: "</h1>"
 The <h1> tells the browser to render a header format
 -->
+
+<!--These 2 tags tell the clients browser to include our CSS and Javascript files-->
+<link rel="stylesheet" type="text/css" href="/styles.css">
+<script src="/scripts.js"></script>
 <h1>Hello, World</h2>
 <h2>Yay</h2>
 
@@ -19,3 +23,8 @@ This region experiences warm (but not hot) and dry summers, with no average mont
 <p>
 This will be its on paragraph, you can put <b>other tags</b> within a tag
 </p>
+
+<!--
+Clicking this button will trigger the doSomething() function defined in "scripts.js"
+-->
+<button onclick="doSomething()">Click Me To Change The Background Color!</button>
